@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-top{
+    width: 100%;
+    height: 80px;
+    background: rgb(88, 174, 208);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amamaza-logo{
+    margin-left: 10px;
+    margin-right: 800px;
+    font-size: 40px;
+}
+.dotcom{
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
+.www{
+margin-left: 25px;
+}
+.com{
+    margin-left: 35px;
+}
+.amamaza{
+    font-size: 25px;
+}
+/* second navigation bar */
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+   
+}
+.advertise{
+    background: black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    margin-right: 30px;
+    padding: 0px;
+}
+.click{
+    margin-left: 20px;
+    margin-right: 35px;
+}
+#advertise-button{
+    background: yellowgreen;
+    width: 120px;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+/* after  second nav */
+#request-to-advertise{
+    width: 100%;
+    height: 600px;
+    /* background: rgb(57, 132, 180); */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    /* display: none; */
+background: linear-gradient(skyblue,transparent,url(download\ \(2\).jpg));
+    background-repeat: no-repeat;
+    background-size: 1000px;
+}
+.welcome-client{
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: rgb(10, 205, 30);
+    margin-top: 50px;
+}
+.client {
+    color: rgb(26, 233, 226);
+}
+.how{
+    margin-bottom: 20px;
+}
+.login-signup-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 40px;
+}
+.login-signup-buttons button{
+   width: 200px;
+   height: 50px;
+   color: white; 
+   font-size: 25px;
+   border-radius:5px ;
+   border: none;
+   -webkit-border-radius:5px ;
+   -moz-border-radius:5px ;
+   -ms-border-radius:5px ;
+   -o-border-radius:5px ;
+   margin-right: 40px;
+   margin-left: 40px;
+}
+#login-button{
+color: white;
+background: green;
+}
+#signup-button{
+    color: white;
+background: rgb(3, 164, 193);
+}
+.or{
+    color: rgb(239, 255, 9);
+    font-size: 30px;
+}
+.choose{
+    margin-top: 50px;
+    color: yellow;
+}

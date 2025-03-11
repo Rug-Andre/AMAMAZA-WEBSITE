@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-top{
+    width: 100%;
+    height: 80px;
+    background: rgb(88, 174, 208);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amamaza-logo{
+    margin-left: 10px;
+    margin-right: 800px;
+    font-size: 40px;
+}
+.dotcom{
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
+.www{
+margin-left: 25px;
+}
+.com{
+    margin-left: 35px;
+}
+.amamaza{
+    font-size: 25px;
+}
+/* second navigation bar */
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+ul li{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+   
+ 
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+   
+}
+.advertise{
+    background: black;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    margin-right: 30px;
+    padding: 0px;
+}
+.click{
+    margin-left: 20px;
+    margin-right: 35px;
+}
+#advertise-button{
+    background: yellowgreen;
+    width: 120px;
+    height: 100%;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-size: 25px;
+}
+.container{
+    display: flex;
+    background: rgb(34, 181, 207);
+    color: white;
+    width: 100%;
+    height: 600px;
+   
+}
+.container-content{
+    margin-top: 40px;
+    margin-right: 300px;
+    margin-left: 40px;
+}
+.why{
+    margin-bottom: 30px;
+    color: black;
+}
+.arleady-container{
+    display: flex;
+    margin-top: 50px;
+}
+.arleady{
+    margin-right: 30px;
+}
+.login-button{
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(69, 198, 43);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+    font-size: 30px;
+}
+.form-container{
+    margin-top: 40px;
+  
+}
+form{
+
+}
+.client-signup{
+    margin-bottom: 20px;
+}
+form input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid rgb(9, 108, 31);
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+     margin-top: 5px;
+     margin-bottom: 5px;
+}
+p{
+    font-size: 20px;
+}
+::placeholder{
+    color: rgb(37, 118, 37);
+      padding-left: 20px;
+}
+.signup{
+    margin-top: 10px;
+   border: none;
+   background: black;
+   color: white;
+   font-size: 20px;
+}

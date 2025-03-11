@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container-top">
+        <h1 class="amamaza-logo">AMAMAZA</h1>
+        <div class="dotcom"><h3 class="www">www.</h3><h3 class="amamaza">amamaza.</h3><h3 class="com">com</h3></div>
+      </div>  
+      <nav id="navigation">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Location</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+        <div class="advertise">
+            <h2 class="click">click here to </h2>
+            <button id="advertise-button" onclick="requestadvertise()">Advertise</button>
+        </div>
+        </nav>
+<div class="container">
+    <div class="container-content">
+        <h1 class="why">Why We Need SignUp</h1>
+        <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure atque ut voluptatibus veritatis porro <br>
+             dolorum tempore cupiditate. Asperiores et deleniti rerum! Esse architecto molestias illum <br>
+              est asperiores dolore veniam omnis? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit <br>
+               blanditiis aspernatur. Totam eaque quo, sequi suscipit perferendis rem provident facilis minus <br>
+               repellat. Nisi ullam a, repellendus facere sint magnam magni?</h3>
+               <div class="arleady-container">
+               <h2 class="arleady">Arleady have an account </h2> <a href="login.html"><button class="login-button">Login</button></a>
+               </div>
+    </div>
+    <div class="form-container">
+        <form action="" method="POST">
+            <!-- <?php
+            include('config.php');
+             $error=array();
+             if(isset($_POST['submit'])){
+                $fname=$_POST['fname'];
+                $email=$_POST['email'];
+                $phone=$_POST['phone'];
+                $password=$_POST['password'];
+                $cpassword=$_POST['cpassword'];
+
+                if(empty($fname)  || empty($email) || empty($phone) ||empty($password) || empty($cpassword)){
+                    array_push($error,"input all fields");
+                }
+                if(!filter_var($email,FILTER_VALIDATE_EMAIL)){
+                    array_push($error,"Email is invalid");
+                }
+                if(strlen($password)<8){
+                    array_push($error,"please password must be atleast 8 characters");
+                }
+                if($password != $cpassword){
+                    array_push($error,"Password does n't match");
+                }
+                if(!preg_match("/^(?=.*\d)(?=.*[A-Z]).{8,}$/",$password)) {
+                    array_push($error,'password must contain atleast one number,one uppercase letter');
+                }
+                if(count($error)>0){
+                    foreach($error as $err){
+                        echo "<div class='alert alert-danger'>$err</div>";
+                    }
+                }
+                else{
+                    $sql="INSERT INTO `date`(names,email,phone,password) VALUES('$fname','$email','$phone')";
+                    $result=mysqli_query($conn,$sql);
+                    if($result){
+                        header('location:client_dashboard.html');
+                    }
+                }
+            }
+            ?> -->
+            <h1 class="client-signup">Client SignUp</h1>
+            <p>Username:</p><input type="text" name="fname" placeholder="Enter Your First Name"><br>
+            <p>Email:</p><input type="email" name="email" placeholder="Enter Your Email"><br>
+            <p>Password</p><input type="password" name="password" placeholder="Enter your password">
+            <p>Confirm Password</p><input type="password" name="cpassword" placeholder="Confirm ypur password">
+                          <input type="submit" value="SignUP" name="submit" class="signup">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
+
